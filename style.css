@@ -1,0 +1,98 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #333;
+    color: #ffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-self: center;
+    font-family: Arial, Helvetica, sans-serif;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.topLine{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+.ref{
+    align-self: center;
+    display: inline-flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    width: 100px;
+    height: 100px;
+    margin-right: 90px;
+}
+#refresh{
+    align-self: center;
+    width: 70px;
+    height: 70px;
+    border-radius: 10px;
+    border-width: 5px;
+   
+
+}
+
+.titleInWeb{
+    display: inline-block;
+    color: greenyellow;
+    padding: 20px;
+    margin-left: 100px;
+    border-width: 5px;
+    background-color: gray;
+    border-radius: 15px;
+    border-color: black;
+}
+
+.vsInTitel{
+    color: whitesmoke;
+}
+
+.appleInTitle{
+    color: black;
+}
+
+.points {
+    align-self: center;
+    display: inline-flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+.points span {
+    margin-left: 200px;
+    margin-right: 0px;
+    font-size: 50px;
+    justify-self: flex-end;
+    width: 50px;
+}
+
+
+#canvas{
+    background-color: #f0f0f0;
+    border-radius: 5px;
+}
+
+#android{
+    display: none;
+}
+
+#apple{
+    display: none;
+    background-color: rgb(34, 32, 32);
+}
+
+#smartphones{
+    display: none;
+}
+
+#boom{
+    display: none;
+}
+
+
+
