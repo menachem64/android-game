@@ -10,7 +10,7 @@ body{
     align-items: center;
     justify-self: center;
     font-family: Arial, Helvetica, sans-serif;
-    height: 100%;
+    height: absolute;
     margin: 0;
 }
 
