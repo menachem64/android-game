@@ -31,7 +31,7 @@ const adversary = {
     h:[ 
         70,
     ],
-    speed: 15,
+    speed: 12,
    // dx: 3,
    // dy: 0
 }
@@ -188,12 +188,12 @@ function biting(){
         for (let i = 0; i < bite.w.length; i++) {
         bite.w[i] = 0;
         biteForPush.w[i] = 0;
-}}, 4000)
+}}, 250)
     setInterval(() => {
         for (let i = 0; i < bite.w.length; i++) {
         bite.w[i] = 23.2;
         biteForPush.w[i] = 23.2;
-}}, 2000)
+}}, 500)
 }
 
 biting();
