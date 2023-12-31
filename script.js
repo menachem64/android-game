@@ -89,9 +89,7 @@ const adversaryForPush = {
     ],
     y:[ 
         35,
-        200,
-        365,
-        119.5,
+   
     ],
     w:[
         80,
