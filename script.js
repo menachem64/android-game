@@ -92,7 +92,6 @@ const adversaryForPush = {
         200,
         365,
         119.5,
-    //    282.5,
     ],
     w:[
         80,
@@ -188,12 +187,12 @@ function biting(){
         for (let i = 0; i < bite.w.length; i++) {
         bite.w[i] = 0;
         biteForPush.w[i] = 0;
-}}, 1000)
+}}, 2000)
     setInterval(() => {
         for (let i = 0; i < bite.w.length; i++) {
         bite.w[i] = 23.2;
         biteForPush.w[i] = 23.2;
-}}, 500)
+}}, 1000)
 }
 
 biting();
@@ -230,13 +229,13 @@ function oneByOne(){
         if(time > 1000){
             time -= 100
         }
-    },20000)
+    },10000)
 
     setInterval(() => { 
         if(adversary.speed < 7){
           adversary.speed += 0.5
         }
-    },10000)
+    },5000)
 
    // let adversaryPush = setInterval(() => { 
     function adversaryPush(){
